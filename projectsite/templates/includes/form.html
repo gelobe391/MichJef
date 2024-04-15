@@ -6,9 +6,9 @@
       <p{% if forloop.last %} class="mb-0"{% endif %}>{{ error }}</p>
     {% endfor %}
  </div>
- {% endif %}
+{% endif %}
 
- {% for field in form %}
+{% for field in form %}
 
  <div class="field item form-group">
       <label>{{ field.label_tag }}</label>
